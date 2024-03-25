@@ -15,9 +15,9 @@ const Home = () => {
                   </div>
                   <nav>
                     <ul>
-                      <li><Link href="/home">Home</Link></li>
+                      <li><Link href="page.tsx">Home</Link></li>
                       <li className="current"><Link href="/">About</Link></li>
-                      <li><Link href="/services">Services</Link></li>
+                      <li><Link href="services.tsx">Services</Link></li>
                     </ul>
                   </nav>
                 </div>
@@ -77,5 +77,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;

@@ -14,9 +14,10 @@ const Home = () => {
                   </div>
                   <nav>
                     <ul>
-                      <li className="current"><Link href="/">Home</Link></li>
-                      <li className="about"><Link href="/">About</Link></li>
-                      <li><Link href="/services">Services</Link></li>
+                      <li><Link href="about.tsx">About</Link></li>
+                      <li><Link href="services.tsx">Services</Link></li>
+                      <li className="current"><Link href="/">Services</Link></li>
+
                     </ul>
                   </nav>
                 </div>
@@ -82,5 +83,4 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
