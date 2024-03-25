@@ -14,9 +14,9 @@ const Home = () => {
                 </div>
                 <nav>
                   <ul>
-                    <li className="current"><Link href="/">Home</Link></li>
-                    <li><Link href="about.tsx">About</Link></li>
-                    <li><Link href="services.tsx">Services</Link></li>
+                  <li className="current"><Link href="/">Home</Link></li>
+                  <li><Link href="/about">About</Link></li>
+                  <li><Link href="/services">Services</Link></li>
                   </ul>
                 </nav>
               </div>
