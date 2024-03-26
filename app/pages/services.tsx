@@ -21,7 +21,8 @@ const Home = () => {
                   </nav>
                 </div>
               </header>
-              <section id="newsletter">
+              
+      <section id="newsletter">
       <div className="container">
         <h1>Subscribe To Our Newsletter</h1>
         <form>
@@ -37,17 +38,17 @@ const Home = () => {
             <h1 className="page-title">Services</h1>
             <ul id="services">
                 <li>
-                    <h3>Website Design</h3>
+                    <h3>Event hosting</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus ornare lectus, varius euismod quam pulvinar eget. Nullam rhoncus sit amet magna vitae ullamcorper. Vivamus in mi turpis.</p>
                     <p>Pricing: $1,000 - $3,000</p>
                 </li>
                 <li>
-                    <h3>Website Maintenance</h3>
+                    <h3>Membership plan</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus ornare lectus, varius euismod quam pulvinar eget. Nullam rhoncus sit amet magna vitae ullamcorper. Vivamus in mi turpis.</p>
-                    <p>Pricing: $250 per month</p>
+                    <p>Pricing: $50 per month</p>
                 </li>
                 <li>
-                    <h3>Website Hosting</h3>
+                    <h3>Advertising</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam rhoncus ornare lectus, varius euismod quam pulvinar eget. Nullam rhoncus sit amet magna vitae ullamcorper. Vivamus in mi turpis.</p>
                     <p>Pricing: $25 per month</p>
                 </li>

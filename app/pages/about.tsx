@@ -22,21 +22,6 @@ const Home = () => {
                   </nav>
                 </div>
               </header>
-  
-  <body>
-    <header>
-      <div className="container">
-        <div id="branding"></div>
-          <h1><span className="highlight">Legendary</span> Books</h1>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li className="current"><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
-    </header>
 
 
     <section id="newsletter">
@@ -73,7 +58,6 @@ const Home = () => {
     <footer>
         <p>Legendary Books, Copyright &copy; 2024</p>
       </footer>
-    </body>
     </div>
   );
 };
