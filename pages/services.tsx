@@ -60,15 +60,15 @@ const Home = () => {
             <h3>Get a quote</h3>
             <form className="quote">
                 <div>
-                    <label><br>Name</br></label>
+                    <label>Name</label><br />
                     <input type="text" placeholder="Name"/>
                 </div>
                 <div>
-                    <label><br>Email</br></label>
+                    <label>Email</label><br />
                     <input type="email" placeholder="Email Address"/>
                 </div>
                 <div>
-                    <label><br>Message</br></label>
+                    <label>Message</label><br />
                     <textarea placeholder="Message"></textarea>
                 </div>
                 <button className="button_1" type="submit">Send</button>
